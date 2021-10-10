@@ -68,7 +68,9 @@ for the different views of the app --}}
 <body class="text-center" id="page-top">
     {{!-- HEADER OF WEBSITE --}}
     <header style="border-bottom: 2px dotted #1e3148;">
-        <div class="headerLogo fixed-top">
+        <div class="header-container">
+            <div >
+                <div class="headerLogo fixed-top" >
                 <div class = "logo">
                     <img src="/img/logo5.png" height="80" width="80" alt="The Spot logo">
                 </div>
@@ -88,51 +90,53 @@ for the different views of the app --}}
 
                 </div>    
                 
-        </div>
-      
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-            <a class="navbar-brand newColor" href="/home">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navigation navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link newColor" href="about">About<span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link newColor" href="/newsletter-signup">Newsletter</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link newColor" href="/contest/vacation-photo">Contest</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link newColor" href="/testimonials">Testimonials</a>
-                    </li>
-                    
-                </ul>
-                  {{!--  PLACEHOLDER TO SEARCH, with dev typed placeholder  --}}
-                   <script async src="https://cse.google.com/cse.js?cx=f0ab4f4131463c6de"></script>
-                  
-                   ​<script>
-                        (function() {
-                            var cx = 'f0ab4f4131463c6de';
-                            var gcse = document.createElement('script');
-                            gcse.type = 'text/javascript';
-                            gcse.async = true;
-                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                            var s = document.getElementsByTagName('script')[0];
-                            s.parentNode.insertBefore(gcse, s);
-                        })();
-                        window.onload = function(){
-                            document.getElementById('gsc-i-id1').placeholder = 'Search on Google now!';
-                        };
-                    </script>
-                    <div class="gcse-search"></div>
-                                
+                </div>
             </div>
-        </nav>
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+                <a class="navbar-brand newColor" href="/home">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navigation navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link newColor" href="about">About<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link newColor" href="/newsletter-signup">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link newColor" href="/contest/vacation-photo">Contest</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link newColor" href="/testimonials">Testimonials</a>
+                        </li>
+                        
+                    </ul>
+                    {{!--  PLACEHOLDER TO SEARCH, with dev typed placeholder  --}}
+                    <script async src="https://cse.google.com/cse.js?cx=f0ab4f4131463c6de"></script>
+                    
+                    ​<script>
+                            (function() {
+                                var cx = 'f0ab4f4131463c6de';
+                                var gcse = document.createElement('script');
+                                gcse.type = 'text/javascript';
+                                gcse.async = true;
+                                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                var s = document.getElementsByTagName('script')[0];
+                                s.parentNode.insertBefore(gcse, s);
+                            })();
+                            window.onload = function(){
+                                document.getElementById('gsc-i-id1').placeholder = 'Search on Google now!';
+                            };
+                        </script>
+                        <div class="gcse-search"></div>
+                                    
+                </div>
+            </nav>
+        </div>
+        
 
     </header>
     {{!-- END OF HEADER --}}

@@ -24,11 +24,6 @@ body.dark-theme {
 /* styling HEADER */
 
 
-header.header-container {
-    margin: 0 auto;
-    width: 95%;
-}
-
 .headerLogo {
     font-size:0.8em; 
     width:100%; 
