@@ -1,21 +1,30 @@
 
-## Local Spot website
+## The Local Spot website
 
-Prototype of product, where users receive recommendation of locals to travel and adventure where only spots that locals know and go! 
-No more going into turistics and crowded places! 
-Go where the Locals Go... 
+The Local Spot is a high-fidelity prototype created to apply Interaction Design principles.
+ - During the development, I took a user-centered approach, including users in the development of the interface, seeking users’ opinions and reactions into early designs.
+ - Designed a simple and descriptive interface, avoiding cluttering of information that could distract the user.
+ - Used blank spaces, borders, and color contrast to create an interface where users perceive and allocate items quickly.
+ - Use of icons that help users distinguish information and how to use them (for example in the use of common known search and menu icons).
+ - A interface that provides recognition by using menus, icons, and consistency throughout the interface (for example the sign-up and newsletter pages are similar).
+ - High-fidelity prototype created using design principles, most noticeable is feedback, constraints, and consistency (for example the user can see the information necessary to fill forms to sign-up, and there is also feedback after sign-up or if the user didn’t add necessary information to perform the action).
+
+Description of product:
+Users receive recommendations from locals to travel and adventure that only locals know and go!  No more going into touristic and crowded places! 
+Go Where the Locals Go... 
+
 
 ## How to use
 
 Type command:
-- node travelSite.js    // to run seb server
+- node travelsite.js    // to run seb server
 
 Open local host on browser.
 
 ### `Objective`
 
-Create a static application using Express.js (server) and Handlebars( Express-Handlebars view engine).
-The web page uses responsive web design and UX design principles. 
+- Create a high-fidelity prototype that applies responsive web design and UX design principles. 
+- Create a static application using Express.js (server) and Handlebars( Express-Handlebars view engine).
 
 ### `State we are at`
 
