@@ -23,6 +23,12 @@ body.dark-theme {
   }
 /* styling HEADER */
 
+
+header.header-container {
+    margin: 0 auto;
+    width: 95%;
+}
+
 .headerLogo {
     font-size:0.8em; 
     width:100%; 
@@ -113,7 +119,10 @@ button.gsc-search-button-v2{
 div.main {
     min-height: 60vh;
     color: #0a2f66;
+    margin: 0 auto;
+    width: 95%;
 }
+
 h1{
     font-size: 1.8rem;
 }

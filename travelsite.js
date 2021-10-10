@@ -63,8 +63,8 @@ app.get('/newsletter-signup',(req,res) => {
     res.render('newsletter-signup', { csrf: 'CSRF token goes here' });
 });
 
-app.get('/experiences', (req,res) => {
-    res.render('experiences');
+app.get('/testimonials', (req,res) => {
+    res.render('testimonials');
 });
 
 app.get('/signin',(req,res) => {
