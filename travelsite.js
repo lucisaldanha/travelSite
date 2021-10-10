@@ -101,8 +101,8 @@ app.post('/processRegister', (req,res) => {
     console.log('CSRF token (from hidden field:) ' + req.body._csrf);
     console.log('Name (from visible field:) ' + req.body.name);
     console.log('Email (from visible field:) ' + req.body.email);
-    console.log('Email (from visible field:) ' + req.body.country);
-    console.log('Email (from visible field:) ' + req.body.city);
+    console.log('country (from visible field:) ' + req.body.country);
+    console.log('city (from visible field:) ' + req.body.city);
     res.redirect(303, 'thank-you-register'); // server redirects to path/url
 });
 
@@ -110,6 +110,26 @@ app.get('/thank-you-register', (req,res, next) => {
     res.render('thank-you-register');
    
 });
+
+app.get('/resetPassword',(req,res) => {
+    // const now = new Date();
+    res.render('resetPassword');
+    // console.log(now);
+});
+// take form from RESET PASSWORD AND POST IT
+app.post('/processResetPassword', (req,res) => {
+    console.log('Form (from querystring:) ' + req.query.form);
+    console.log('CSRF token (from hidden field:) ' + req.body._csrf);
+    console.log('Email (from visible field:) ' + req.body.email);
+    res.redirect(303, 'feedbackResetPass'); // server redirects to path/url
+});
+
+app.get('/feedbackResetPass', (req,res, next) => {
+    res.render('feedbackResetPass');
+   
+});
+
+
 
 app.get('/news-thank-you', (req,res, next) => {
     res.render('news-thank-you');
