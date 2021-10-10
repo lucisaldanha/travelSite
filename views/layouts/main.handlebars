@@ -76,11 +76,18 @@ for the different views of the app --}}
                     <h3 class="name">THE LOCAL SPOT</h3>
                     
                 </div>
-                <div style="text-align:center;">
-                        {{!-- <a href="/about" class="button" style="width:20px; color:#99b1e8 ; padding: .5rem 1rem; text-decoration: none;">
-                        Sign up</a> --}}
-                        <a href="/signin" class="btn btn-secondary btn-md border border-light hvr-bounce-to-right" role="button" aria-disabled="true">Sign in</a>
+                <div style="text-align:center; display: flex;">
+                    <div style="padding-right:1rem;">
+                        <a style="width: max-content;" href="/signin" class=" signRegisterBtn btn btn-secondary btn-md border border-light hvr-bounce-to-right" role="button" aria-disabled="true">Sign in</a>
+
+                    </div>   
+                    <div style="padding-right:1rem;">
+                        <a style="width: max-content; padding-right:1rem;" href="/register" class="signRegisterBtn btn btn-secondary btn-md border border-light hvr-bounce-to-right" role="button" aria-pressed="true"> Register</a>
+                    </div>
+                       
+
                 </div>    
+                
         </div>
       
       <nav class="navbar navbar-expand-lg navbar-light sticky-top">
@@ -126,12 +133,10 @@ for the different views of the app --}}
                                 
             </div>
         </nav>
-        
 
     </header>
     {{!-- END OF HEADER --}}
 
-    
     {{!-- body placeholder will be replaced with HTML for each view --}}
     <div class="main container">
         {{{body}}}    

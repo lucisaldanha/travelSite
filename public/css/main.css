@@ -257,6 +257,7 @@ div.construction {
     div.homePhrases {
         max-width: 59%;
     }
+    
 }
 
 @media only screen and (min-width: 800px) {
@@ -321,7 +322,7 @@ div.construction {
 }
 
 /* about page styling*/
-.row {
+.rowBox {
     margin-top: 5vh;
 }
 blockquote.fortuneCookie {
